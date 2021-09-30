@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - AluraSteam v2- ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Alurateam
+  </h1>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+</div>
+<p class="enunciado">Alguns dos meus jogos favoritos:</p>
+<h2 class="enunciado">Quer adicionar algum jogo à lista?</h2>
+<p class="enunciado">Basta preencher os campos abaixo e clicar no botão Adicionar</p>
+<div class="campos">
+  <input placeholder="Nome do Jogo" id="campoNome">
+  <br> <input placeholder="Endereço de Imagem da Capa" id="campoJogo">
+  <br> <input placeholder="Link da Página do Jogo" id="campoLink">
+  <br> <button type="submit" onclick="novoJogo()">Adicionar</button>
+</div>
+<div id="conf" class="enunciado"></div>
+<div id="jogos" class="imagensJogos"></div>
+<div id="novosJogos" class="imagensJogos"></div>
+<br> <h2 class="enunciado">Quer remover algum jogo que você inseriu da lista?</h2>
+<p class="enunciado">Insira o nome do jogo (conforme você escreveu acima) e clique no botão Remover</p>
+<div class="campos2">
+  <input placeholder="Nome do Jogo" id="campoNomeRemover">
+  <br> <button type="submit" onclick="removerJogo()">Remover</button>
+</div>
+<div id="confRemover" class="enunciado"></div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

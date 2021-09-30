@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Temperaturas</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperaturas</title>
+</head>
+<body>
+  <header>
+    <h1>Conversor de Temperaturas</h1>
+  </header>
+  <main>
+    <p>Preencha no campo abaixo a temperatura em Celsius que você quer converter e pressione o botão desejado para realizar a conversão.</p> <br>
+    <input type="number" placeholder="Graus Celsius" id="graus"> <br>
+    <button type="submit" onclick="converterFahrenheit()">Fahrenheit</button>
+    <button type="submit" onclick="converterKelvin()">Kelvin</button>
+    <br>
+    <p id="resultado" class="result"></p>
+  </main>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

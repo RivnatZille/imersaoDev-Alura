@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Ubuntu:wght@400;700&display=swap');
+
+body {
+  text-align: center;
+  background-color: #020300;
+  color: white;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.1em;
+}
+
+input {
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.05em;
+}
+
+button {
+  padding: 5px;
+  margin: 15px;
+  border-radius: 5px;
+  background-color: #546A76;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.05em;
+}
+
+.result {
+  font-size: 1.3em;
+  font-weight: bold;
+}

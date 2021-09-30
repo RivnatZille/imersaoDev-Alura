@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabela de classificação</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <h1>Tabela de classificação</h1>
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+        <th colspan=3>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabelaJogadores">
+    </tbody>
+  </table>
+  <div id="totalPartidas" class="mensagens"></div>
+  <div id="validacaoVitoriasDerrotas" class="mensagens"></div>
+  <div class="campos">
+    <h2>Adicionar Mais Jogadores</h2>
+    <p class="mensagens">Insira o Nome e o Link para o Avatar do jogador e depois clique em Adicionar</p>
+    <input placeholder="Nome" type="text" id="nomeNovoJogador" size=30 class="inputNovoJogador">
+    <br><input placeholder="Avatar" id="avatarNovoJogador" size=50 class="inputNovoJogador">
+    <br><button type="submit" onclick="adicionarJogador()" class="botoes">Adicionar</button>
+    <div id="msgAdicionado" class="mensagens"></div>
+    <br>
+    <h2>Zerar a Pontuação</h2>
+    <p class="mensagens">Aperte o botão abaixo para zerar a pontuação de todos os jogadores</p>
+    <button type="submit" onclick="zerarPontos()" class="botoes">Zerar Pontuação</button>
+    <div id="msgZerado" class="mensagens"></div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

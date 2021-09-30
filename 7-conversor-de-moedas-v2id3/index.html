@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Moedas v2 - ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de Moedas
+  </h1>
+  <p class="page-subtitle">
+    Descubra os valores em Real R$ e Bitcoin
+  </p>
+  <h2 class="lista">- Cotações Consideradas -</h2>
+  <ul class="lista">
+    <li>1 Dólar = 5 Reais
+    <li>1 Euro = 6 Reais
+    <li>1 Libra = 7 Reais
+    <li>1 Peso Argentino = 0.05 Reais
+    <li>1 Bitcoin = 250000 Reais
+  </ul>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="moeda">Selecione a Moeda, insira o Valor e Clique em Converter para R$</label><br>
+  <form class="opcoesMoedas">
+    <input type="radio" name="moedas" id="moedaDolares">Dólares</input><br>
+    <input type="radio" name="moedas" id="moedaEuros">Euros</input><br>
+    <input type="radio" name="moedas" id="moedaLibras">Libras</input><br>
+    <input type="radio" name="moedas" id="moedaPesos">Pesos Argentinos</input><br>
+    <input type="radio" name="moedas" id="moedaBitcoins">Bitcoins</input>
+  </form>
+   <input type="number" id="valor" size="2" class="campo" placeholder="Valor" </input><br>
+   <button type="submit" onclick="converter()">Converter para R$</button>
+
+  <div id="valorConvertidoCampo" class="novoValor"></div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

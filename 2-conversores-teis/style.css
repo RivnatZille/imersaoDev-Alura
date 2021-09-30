@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Karantina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;700&display=swap');
+
+body {
+  background-color: #0D0A0B;
+  text-align: center;
+}
+
+h1 {
+  color: #597081;
+  font-family: 'Karantina', cursive;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: 'Cairo', sans-serif;
+  margin-bottom: 0px;
+  color: #F3EFF5;
+}
+
+p {
+  color: #F3EFF5;
+  font-family: 'Cairo', sans-serif;
+  margin-top: 0px;
+}
+
+.campo {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.resp {
+  color: #F3EFF5;
+  font-family: 'Cairo', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}

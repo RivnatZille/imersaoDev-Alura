@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora de média</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title> Imersão Dev Alura - Aula 01</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      <br>
+      <input placeholder="Nota - Primeiro Bimestre" id="nota1" class="notas"></input>
+      <br>
+      <input placeholder="Nota - Segundo Bimestre" id="nota2" class = "notas"></input>
+      <br>
+      <input placeholder="Nota - Terceiro Bimestre" id="nota3" class = "notas"></input>
+      <br>
+      <input placeholder="Nota - Quarto Bimestre" id="nota4" class = "notas"></input>
+      <br>
+      <button onclick = "calcularNota()">Calcular Média</button>
+      
+      <h2>Resultado</h2>
+      <p id="resultado" class="resultado"></p>
+      <br>
+      <img src="https://image.flaticon.com/icons/png/512/201/201635.png" class="boletim">
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

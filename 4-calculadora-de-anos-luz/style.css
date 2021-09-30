@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu+Mono&display=swap');
+
+body {
+  background-color: black;
+  background-image: url("https://images.pexels.com/photos/3110354/pexels-photo-3110354.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+}
+
+main {
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 1000px;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.2em;
+}
+
+input {
+  font-family: 'Ubuntu Mono', monospace;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+button {
+  margin: 15px;
+  font-family: 'Ubuntu Mono', monospace;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1em;
+  background-color: #0471A6;
+  color: white;
+  font-weight: bold;
+}
+
+.resultado {
+  padding: 10px;
+}

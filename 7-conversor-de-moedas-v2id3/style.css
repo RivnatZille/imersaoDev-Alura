@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #1a181b;
+  background-size: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #9b1d20;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.novoValor {
+  color: #f1e4e8;
+  font-size: 24px;
+}
+
+.campo {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.lista {
+  /* para que o texto de ambos h2 e da lista fiquem brancos */
+  color: #ffffff;
+}
+
+ul {
+  /* para remover a decoração da lista, e remover o espaçamento das bordas, fazendo com que o texto fique centralizado*/
+  list-style-type: none;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.350);
+  width: 15%;
+  border-radius: 8px;
+  box-shadow: 1px, 1px, 5px; rgba(0, 0, 0, 0.200)
+}
+
+h2 {
+  font-size: 18px;
+}
+
+button {
+  background-color: #738290;
+  color: white;
+  font-family: "Exo", sans-serif;
+  margin-bottom: 15px;
+}
+
+.opcoesMoedas {
+  color: white;
+  margin: auto;
+}
